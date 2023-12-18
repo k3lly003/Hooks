@@ -3,7 +3,10 @@ import React from "react";
 function ControlerInputField() {
   return (
     <>
-      <h1>CountrolerInputField page</h1>
+      <div>
+        <input type="text" />
+        <p>Input text: TODO</p>
+      </div>
     </>
   );
 }
