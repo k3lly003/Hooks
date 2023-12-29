@@ -1,15 +1,17 @@
-import "./App.css";
-
+import "./styles/App.css";
+import { useNavigate } from "react-router-dom";
+import MenuBar from "./layouts/MenuBar.jsx";
 function App() {
-  // const history = useHistory();
+  const navigate = useNavigate();
   function handleUseStatePage(event) {
+    event.preventDefault();
     const selectedValue = event.target.value;
     switch (selectedValue) {
       case "state":
-        window.location.href = "https://www.google.com";
+        navigate("/useState");
         break;
       case "effect":
-        window.location.href = "https://www.x.com";
+        navigate("/useEffect");
         break;
       default:
         console.log("you reached to the default");
@@ -18,6 +20,9 @@ function App() {
   }
   return (
     <>
+      <div>
+        <MenuBar />
+      </div>
       <div className="count">
         <h2>Practice Hooks</h2>
         <p>Select between the two to start your exercises:</p>
