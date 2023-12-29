@@ -4,7 +4,15 @@
   padding: 2rem;
   text-align: center;
 }
-
+#select {
+  width: 50%;
+  height: 2em;
+  font-size: 0.9em;
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
 .count {
   display: flex;
   flex-direction: column;
