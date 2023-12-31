@@ -2,4 +2,8 @@
   width: 80vw;
   display: flex;
   justify-content: space-between;
+  text-decoration: none;
+}
+.text {
+  text-decoration: none;
 }

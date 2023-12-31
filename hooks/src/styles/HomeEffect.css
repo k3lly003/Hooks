@@ -1,0 +1,16 @@
+.menuState {
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.activity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

@@ -20,7 +20,7 @@ function App() {
   }
   return (
     <>
-      <div>
+      <div className="top">
         <MenuBar />
       </div>
       <div className="count">

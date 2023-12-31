@@ -8,6 +8,7 @@ function HomeEffect() {
         <MenuBar />
       </div>
       <div className="container">
+        <h2>UseState Hook</h2>
         <p>
           Master the useEffect hook in React with interactive exercises,
           covering scenarios like data fetching, input validation, and more, to
@@ -39,11 +40,13 @@ function HomeEffect() {
           current window size using useEffect.
         </p>
       </div>
-      <div>
-        <button>Data Fetching using useEffect</button>
-        <button>Countdown Timer with useEffect</button>
-        <button>Window Resize Listener using useEffect</button>
-        <button>Form Input Validation with useEffect</button>
+      <div className="activity">
+        <div className="work">
+          <button>Data Fetching using useEffect</button>
+          <button>Countdown Timer with useEffect</button>
+          <button>Window Resize Listener using useEffect</button>
+          <button>Form Input Validation with useEffect</button>
+        </div>
       </div>
     </>
   );

@@ -9,7 +9,7 @@ function HomeState() {
         <MenuBar />
       </div>
       <div className="stateBody">
-        <h1>UseState Hook</h1>
+        <h2>UseState Hook</h2>
         <p>
           Put your react state management skills to the test with 8 interactive
           exercises.
@@ -31,15 +31,17 @@ function HomeState() {
           get started!
         </p>
       </div>
-      <div>
-        <button>Counter</button>
-        <button>Controlled Input Field</button>
-        <button>Toggle Visibility</button>
-        <button>Character Counter</button>
-        <button>Todo List</button>
-        <button>Color Switcher</button>
-        <button>Search Filter</button>
-        <button>Drag and Drop List</button>
+      <div className="activity">
+        <div className="work">
+          <button>Counter</button>
+          <button>Controlled Input Field</button>
+          <button>Toggle Visibility</button>
+          <button>Character Counter</button>
+          <button>Todo List</button>
+          <button>Color Switcher</button>
+          <button>Search Filter</button>
+          <button>Drag and Drop List</button>
+        </div>
       </div>
     </>
   );
