@@ -13,6 +13,9 @@ function App() {
       case "effect":
         navigate("/useEffect");
         break;
+      case "context":
+        navigate("/useContext");
+        break;
       default:
         console.log("you reached to the default");
         return window.alert("Choose one of the hooks given in the option");
@@ -30,7 +33,7 @@ function App() {
           <option value="choose"></option>
           <option value="state">useState</option>
           <option value="effect">useEffect</option>
-          <option value="contect">useContext</option>
+          <option value="context">useContext</option>
         </select>
       </div>
     </>
