@@ -9,13 +9,13 @@ function MenuBar() {
         <Link to="/" className="text">
           <div>Practices</div>
         </Link>
-        <Link to="" className="text">
+        <Link to="/about" className="text">
           <div>About</div>
         </Link>
-        <Link to="" className="text">
+        <Link to="/feedback" className="text">
           <div>Feedback</div>
         </Link>
-        <Link to="" className="text">
+        <Link to="/FollowUs" className="text">
           <div>Follow us</div>
         </Link>
       </div>

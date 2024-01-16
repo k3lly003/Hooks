@@ -30,6 +30,7 @@ function App() {
           <option value="choose"></option>
           <option value="state">useState</option>
           <option value="effect">useEffect</option>
+          <option value="contect">useContext</option>
         </select>
       </div>
     </>

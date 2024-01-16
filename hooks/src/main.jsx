@@ -5,6 +5,9 @@ import App from "./App.jsx";
 import "./index.css";
 import HomeState from "./pages/HomeState.jsx";
 import HomeEffect from "./pages/HomeEffect.jsx";
+import About from "./pages/About.jsx";
+import Feedback from "./pages/Feedback.jsx";
+import FollowUs from "./pages/FollowUs.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -13,6 +16,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route exact path="/" element={<App />} />
         <Route exact path="/useState" element={<HomeState />} />
         <Route exact path="/useEffect" element={<HomeEffect />} />
+        <Route exact path="/useContext" element={<HomeContext />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/feedback" element={<Feedback />} />
+        <Route exact path="/FollowUs" element={<FollowUs />} />
       </Routes>
     </Router>
   </React.StrictMode>
