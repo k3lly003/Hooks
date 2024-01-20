@@ -1,11 +1,11 @@
 import React from "react";
-import MenuBar from "../layouts/MenuBar";
+import Dashboard from "../layouts/Dashboard.jsx";
 
 function HomeEffect() {
   return (
     <>
       <div className="menuEffect">
-        <MenuBar />
+        <Dashboard />
       </div>
       <div className="container">
         <h2>UseState Hook</h2>

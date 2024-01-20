@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/MenuBar.css";
 import { Link } from "react-router-dom";
 
-function MenuBar() {
+function Dashboard() {
   return (
     <>
       <div className="menu">
@@ -23,4 +23,4 @@ function MenuBar() {
   );
 }
 
-export default MenuBar;
+export default Dashboard;

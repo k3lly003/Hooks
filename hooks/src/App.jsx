@@ -1,6 +1,6 @@
 import "./styles/App.css";
 import { useNavigate } from "react-router-dom";
-import MenuBar from "./layouts/MenuBar.jsx";
+import MenuBar from "./layouts/Dashboard.jsx";
 function App() {
   const navigate = useNavigate();
   function handleUseStatePage(event) {

@@ -1,12 +1,12 @@
 import React from "react";
 import "../styles/HomeState.css";
-import MenuBar from "../layouts/MenuBar.jsx";
+import Dashboard from "../layouts/Dashboard.jsx";
 
 function HomeState() {
   return (
     <>
       <div className="menuState">
-        <MenuBar />
+        <Dashboard />
       </div>
       <div className="stateBody">
         <h2>UseState Hook</h2>

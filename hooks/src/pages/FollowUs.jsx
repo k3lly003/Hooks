@@ -1,11 +1,11 @@
 import React from "react";
-import MenuBar from "../layouts/MenuBar.jsx";
+import Dashboard from "../layouts/Dashboard.jsx";
 
 function FollowUs() {
   return (
     <>
       <div>
-        <MenuBar />
+        <Dashboard />
         <p>Follow Us page</p>
       </div>
     </>
