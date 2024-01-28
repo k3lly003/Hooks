@@ -18,6 +18,7 @@ function Dashboard() {
         <Link to="/FollowUs" className="text">
           <div>Follow us</div>
         </Link>
+        <Link>Login</Link>
       </div>
     </>
   );

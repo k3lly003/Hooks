@@ -1,15 +1,15 @@
-.menuState {
-  /* border: 1px solid green; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.stateBody {
+  /* border: 1px solid yellow; */
+  margin-left: 7em;
 }
 .activity {
+  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .work {
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
